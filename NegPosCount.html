@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        // Function to count positive, negative, and zero values
+
+  var positiveCount = 0;
+  var negativeCount = 0;
+  var zeroCount = 0;
+
+  // Loop to take 10 inputs from the user
+  for (var i = 0; i < 10; i++) {
+    var input = parseInt(prompt("Enter a number:"));
+
+    if (input > 0) {
+      positiveCount++;
+    } else if (input < 0) {
+      negativeCount++;
+    } else {
+      zeroCount++;
+    }
+  }
+
+  // Display the counts
+  console.log("Count of positive: " + positiveCount);
+  console.log("Count of negative: " + negativeCount);
+  console.log("Count of zero: " + zeroCount);
+    </script>
+</body>
+</html>
